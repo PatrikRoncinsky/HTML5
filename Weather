@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="weather.css">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"> </script>
+  <script src="script.js"> </script>
+</head>
+
+<body>
+ <div class="container">
+  <div class="row">
+  <div class="col-sm-3"></div>
+  <div class="col-sm-6">
+
+<table>
+<h1>Weather </h1>
+ <tr> <td> City: <Input type="text" placeholder="type city" size="12" id="city"> </td>
+      <td> Country code: <Input type="text" size="4" id="code"> </td> </tr>
+
+      <tr> <td> <Input type="checkbox" value="details" id="Details"> Details </td>
+      <td> <Input type="button" value="Get" id="get" class="btn-success"> </td>
+</table>
+<div id="main"> 
+
+
+
+
+
+
+</div>
+</div>
+<div class="col-sm-3"> </div>
+</div>
+</div>
+</body>
+</html>
+
+
+
